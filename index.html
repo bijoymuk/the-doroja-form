@@ -41,18 +41,25 @@
  				<p>Please Fill Up.</p>
  				<form> 
  					<div class="form-group d-flex">
- 						<input type="text" name="" placeholder="Full Name" class="box">
- 						<input type="number" name="" placeholder="Number" class="box">
+ 						<input type="text" name="" placeholder="Full Name" class="box" required>
+ 						<input type="number" name="" placeholder="Number" class="box" required>
 
  					</div>
- 					<div class="form-group">
- 						<form action="/action_page.php">
+
+ 						<div class="option-1 boxforDOB form-group">
+ 							<form action="/action_page.php">
  						 <label for="birthday">Birthday:</label>
  						 <input type="date" id="birthday" name="birthday">
  						 <input type="submit">
 
 						</form>
+ 						</div>
 
+
+
+
+
+ 					<div class="form-group">
 
  						<input type="Email" name="" placeholder="Email" class="box">
 
@@ -69,8 +76,9 @@
  					 </div>
 
  					 	<div class="form-group">
- 					 		<input type="text" name="" placeholder="Address" class="box">
- 					 		<select>
+ 					 		<input type="text" name="" placeholder="Address" class="box" required>
+ 					 	<div class="d-flex option-1">
+ 					 			<select class="box ">
  					 			<option>State</option>
  					 			<option>Dhaka</option>
  					 			<option>Cumlla</option>
@@ -78,7 +86,7 @@
  					 			<option>Barishal</option>
  					 		</select>
 
- 					 		<select>
+ 					 		<select class="box ">
  					 			<option>City</option>
  					 			<option>Mirpur</option>
  					 			<option>Mohammadpur</option>
@@ -86,14 +94,16 @@
  					 			<option>Uttara</option>
  					 		</select>
  					 	</div>
+ 					 	</div>
 
  					 	<div class="form-group">
  					 		<input type="Number" name="" placeholder="Zip Code" class="box">
  					 	</div>
 
  					 	<div class="form-group">
- 					 		<button>Reset All</button>
- 					 		<button type="submit">Submit</button>
+
+ 					 		<button class="btn">Reset All</button>
+ 					 		<button type="submit" class="btn">Submit</button>
  					 	</div>
 
 
